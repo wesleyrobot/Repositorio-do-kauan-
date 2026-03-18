@@ -21,7 +21,7 @@ export default function Education() {
           <FadeIn>
             <p className="text-xs tracking-widest text-gray-500 uppercase mb-6">Formação Acadêmica</p>
           </FadeIn>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {academic.map((a, i) => (
               <FadeIn key={a.title} delay={i * 100}>
                 <EducationCard {...a} type="academic" />
@@ -34,7 +34,7 @@ export default function Education() {
           <FadeIn>
             <p className="text-xs tracking-widest text-gray-500 uppercase mb-6">Cursos Complementares</p>
           </FadeIn>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {courses.map((c, i) => (
               <FadeIn key={c.title} delay={i * 100}>
                 <EducationCard title={c.title} institution={c.institution} period={c.period} type="course" />
