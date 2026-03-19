@@ -33,7 +33,7 @@ export default function Hero() {
         <p className="text-gray-400 text-sm sm:text-lg md:text-xl tracking-wide leading-relaxed">
           Administração&nbsp;•&nbsp;Comercial
           <br className="sm:hidden" />
-          &nbsp;•&nbsp;Vendas&nbsp;•&nbsp;Assistente TI
+          &nbsp;•&nbsp;Vendas&nbsp;•&nbsp;TI
         </p>
 
         {/* Buttons */}
